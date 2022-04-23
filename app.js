@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var postsRouter = require('./routes/posts');
-const router = require('./routes/posts');
 
 var app = express();
 // db connection
